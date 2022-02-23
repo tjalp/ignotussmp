@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "ignotus",
+  "version": "${version}",
+  "name": "Ignotus",
+  "description": "A Minecraft (Fabric) mod containing all mods required by the IgnotusSMP",
+  "authors": [
+    "tjalp"
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://tjalp.net/",
+    "sources": "https://github.com/tjalp/ignotussmp/"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/ignotus/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.tjalp.ignotus.Ignotus"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "ignotus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3"
+  }
+}
