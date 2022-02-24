@@ -48,12 +48,17 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
+	// Fabric Language Kotlin
+	modImplementation "net.fabricmc:fabric-language-kotlin:${project.fabric_kotlin_version}"
+
 	// The mods used by IgnotusSMP
 	modImplementation "com.terraformersmc:modmenu:${project.modmenu_version}"
 	modImplementation "com.github.tjalp:Mores-Fabric:${project.mores_version}"
 	include "com.github.tjalp:Mores-Fabric:${project.mores_version}"
 	modImplementation "com.github.tjalp:artifality:${project.artifality_version}"
 	include "com.github.tjalp:artifality:${project.artifality_version}"
+	modImplementation "com.github.tjalp:ExtraAlchemy:${project.extra_alchemy_version}"
+	include "com.github.tjalp:ExtraAlchemy:${project.extra_alchemy_version}"
 }
 
 processResources {

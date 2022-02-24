@@ -19,7 +19,9 @@
     "main": [
       "net.tjalp.ignotus.Ignotus"
     ],
-    "client": [],
+    "client": [
+      "net.tjalp.ignotus.IgnotusClient"
+    ],
     "server": []
   },
   "mixins": [
